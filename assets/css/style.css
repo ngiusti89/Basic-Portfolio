@@ -1,10 +1,12 @@
 body {
     margin: auto;
     width: 960px;
-    background: #dddddd;
+    background-image: url(/assets/images/dynamic-style.png);
     color: #777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
+
+/* border #cccccc */
 
 .left {
     float: left;
@@ -33,6 +35,10 @@ header {
     
 }
 
+/* need to float/flexbox nav over/with header 
+header background color just behind text
+*/
+
 nav {
     background: #ffffff;
     padding: 20px;
@@ -48,13 +54,12 @@ section {
     padding: 20px;
 }
 
-aside {
-    background: #ebebeb;
-}
-
 footer {
     background: #666666;
+    position: absolute;
+ bottom: 0;
 }
+/* don't know why footer is so weird & small.. */
 
 article {
     background: #777;
@@ -63,3 +68,5 @@ article {
 aside {
     background: white;
 }
+
+/* button background color:#4aaaa5, p */
